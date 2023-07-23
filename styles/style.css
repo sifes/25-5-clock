@@ -1,0 +1,63 @@
+body {
+    color: #fff;
+    font-size: 32px;
+    background: rgb(32,1,60);
+    background: linear-gradient(90deg, rgba(32,1,60,1) 0%, rgba(107,86,143,1) 80%);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-clock {
+    margin-top: 15vh;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.time-setters {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.break, .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time-icon {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+}
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 8px 0;
+    margin: 12px 24px;
+    font-size: 36px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.buttons button {
+    width:48px;height:48px;
+    padding: 6px;
+    margin: 4px;
+}
+
+.transform-180deg {
+    transform: rotate(-180deg);
+}
