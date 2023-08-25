@@ -1,37 +1,44 @@
 body {
     color: #fff;
     font-size: 32px;
-    background: rgb(32,1,60);
-    background: linear-gradient(90deg, rgba(32,1,60,1) 0%, rgba(107,86,143,1) 80%);
+    background: rgb(32, 1, 60);
+    background: linear-gradient(90deg, rgb(57, 1, 106) 0%, rgb(78, 38, 38) 80%);
 }
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .wrapper-clock {
     margin-top: 15vh;
     max-width: 700px;
     display: flex;
     flex-direction: column;
 }
+
 .time-setters {
     display: flex;
     gap: 16px;
     align-items: center;
 }
-.break, .work {
+
+.break,
+.work {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .time-icon {
     cursor: pointer;
     width: 32px;
     height: 32px;
     padding: 4px;
 }
+
 .clock {
     display: flex;
     flex-direction: column;
@@ -53,7 +60,8 @@ body {
 
 
 .buttons button {
-    width:48px;height:48px;
+    width: 48px;
+    height: 48px;
     padding: 6px;
     margin: 4px;
 }
